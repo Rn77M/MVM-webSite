@@ -1,0 +1,135 @@
+.croche_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Ajuste para garantir que seja uma coluna em telas menores */
+    align-items: center; /* Centralize o conteúdo */
+    padding: 0;
+}
+.croche_container h1{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+.croche_container h2{
+    font-size: 1.25em;
+    margin-bottom: .5em;
+    color: rgb(95, 91, 91);
+}
+.croche_container img{
+    font-size: 3.5em;
+    margin-bottom: .5em;
+    box-shadow: 4px 4px 20px 4px gray;
+    transition: .7s;
+}
+
+.croche_container img:hover{
+    width: 550px;
+    transform: scale(1.1);
+    margin: 1.2em;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.croche_container .crc{
+    font-size: 3.5em;
+    margin-bottom: .5em;
+}
+
+.croche_container .terezinha{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(120%);
+}
+
+.croche_container .benedito{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(120%);
+}
+
+.croche_container .vestido{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(140%);
+}
+
+.croche_container .vestido:hover{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(140%);
+    transform: scale(1.1);
+}
+
+.croche_container .saida_praia{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(120%);
+}
+
+.croche_container .saida_praia:hover{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(120%);
+    transform: scale(1.1);
+}
+
+
+
+@media (max-width: 600px) and (max-height: 1300px) {
+    .croche_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column; /* Ajuste para garantir que seja uma coluna em telas menores */
+        align-items: center; /* Centralize o conteúdo */
+        padding: 0; /* Ajuste o valor de padding conforme necessário */
+    }
+
+    .croche_container h1 {
+        font-size: 1.5em;
+        margin-bottom: .5em;
+    }
+    .croche_container .crc{
+        font-size: 2.5em;
+        margin-bottom: .5em;
+    }
+    
+    .croche_container p{
+        margin-bottom: 2.5em;
+        color: #7b7b7b;
+    }
+
+    .croche_container img,
+    .croche_container .terezinha,
+    .croche_container .benedito,
+    .croche_container .vestido,
+    .croche_container .familia,
+    .croche_container .saida_praia {
+        width: 100%;
+        max-width: 200px;
+        margin: 1.2em;
+        border-radius: 20px;
+        transition: .7s;
+    }
+
+    .croche_container img:hover,
+    .croche_container .terezinha:hover,
+    .croche_container .benedito:hover,
+    .croche_container .vestido:hover,
+    .croche_container .familia:hover,
+    .croche_container .saida_praia:hover {
+        width: 100%;
+        max-width: 200px;
+        margin: 1.2em;
+        border-radius: 20px;
+        box-shadow: none;
+        transform: scale(1.05);
+    }
+}
+
+
+
